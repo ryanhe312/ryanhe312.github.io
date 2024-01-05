@@ -30,7 +30,7 @@
               <p style="text-align:center">
                 <name>Ruian He | 何瑞安</name>
               </p>
-              <p>I am a 2nd-year PhD student in School of Computer Science at <a href="https://www.fudan.edu.cn">Fudan University</a>, supervised by <a href="https://dml.fudan.edu.cn/87/22/c35294a427810/page.htm">Prof. Bo Yan</a>. Before that, I received my Bachelor's degree of Computer Science at Fudan University in 2021.
+              <p>I am a 3nd-year PhD student in School of Computer Science at <a href="https://www.fudan.edu.cn">Fudan University</a>, supervised by <a href="https://dml.fudan.edu.cn/87/22/c35294a427810/page.htm">Prof. Bo Yan</a>. Before that, I received my Bachelor's degree of Computer Science at Fudan University in 2021.
               </p>
               <p>My research interests lie in the field of computer vision and computer graphics. I have explored a lot of topics, such as facial representation learning, optical flow estimation, video synthesis, and postprocessing of rendering. 
               </p>
@@ -60,7 +60,7 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <heading>News</heading>
                 <ul>
-                  <li> <b>[August. 2023]</b> Two papers have been accepted to ACMMM 2023.</li>
+                  <li> <b>[Dec. 2023]</b> Three papers have been accepted to AAAI 2024.</li>
 
                   <!-- <a onclick="return display('old_news');"> ---- show more ----</a>
                   <div id="old_news" style="display: none;">
@@ -89,11 +89,59 @@
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/ACMMM23_UGSP.png" alt="clean-usnob" width="300" height="250">
+              <img src="images/AAAI24_STSSNet.png" alt="clean-usnob" width="320" height="240">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2312.10890">
+                <papertitle>Low-latency Space-time Supersampling for Real-time Rendering</papertitle>
+              </a>
+              <br>
+              <strong>Ruian He*</strong>, Shili Zhou*, Yuqi Sun, Ri Cheng, Weimin Tan , Bo Yan
+              <br>
+              <em>AAAI</em>, 2024
+              <p> In this paper, we recognize the shared context and mechanisms between frame supersampling and extrapolation, and present a novel framework, Space-time Supersampling (STSS). To implement an efficient architecture, we treat the aliasing and warping holes unified as reshading regions and put forth two key components to compensate the regions, namely Random Reshading Masking (RRM) and Efficient Reshading Module (ERM). Notably, the performance is achieved within only 4ms, saving up to 75\% of time against the conventional two-stage pipeline that necessitates 17ms.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/AAAI24_SAMFlow.png" alt="clean-usnob" width="320" height="350">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2307.16586">
+                <papertitle>SAMFlow: Eliminating Any Fragmentation in Optical Flow with Segment Anything Model</papertitle>
+              </a>
+              <br>
+              Shili Zhou, <strong>Ruian He</strong>, Weimin Tan , Bo Yan
+              <br>
+              <em>AAAI</em>, 2024
+              <p> Optical Flow Estimation aims to find the 2D dense motion field between two frames. Due to the limitation of model structures and training datasets, existing methods often rely too much on local clues and ignore the integrity of objects, resulting in fragmented motion estimation. Through theoretical analysis, we find the pre-trained large vision models are helpful in optical flow estimation, and we notice that the recently famous Segment Anything Model (SAM) demonstrates a strong ability to segment complete objects, which is suitable for solving the fragmentation problem. </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/AAAI24_CAIP.png" alt="clean-usnob" width="320" height="200">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2312.07180">
+                <papertitle>Context-Aware Iteration Policy Network for Efficient Optical Flow Estimation</papertitle>
+              </a>
+              <br>
+              Ri Cheng, <strong>Ruian He</strong>, Xuhao Jiang, Shili Zhou, Weimin Tan , Bo Yan
+              <br>
+              <em>AAAI</em>, 2024
+              <p>  In this paper, we develop a Context-Aware Iteration Policy Network for efficient optical flow estimation, which determines the optimal number of iterations per sample. The policy network achieves this by learning contextual information to realize whether flow improvement is bottlenecked or minimal. Our policy network can be easily integrated into state-of-the-art optical flow networks. Extensive experiments show that our method maintains performance while reducing FLOPs by about 40%/20% for the Sintel/KITTI datasets.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/ACMMM23_UGSP.png" alt="clean-usnob" width="320" height="250">
             </td>
             <td width="75%" valign="middle">
               <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3611752">
-                <papertitle>MVFlow: Deep Optical Flow Estimation of Compressed Videos with Motion Vector Prior</papertitle>
+                <papertitle>Uncertainty-Guided Spatial Pruning Architecture for Efficient Frame Interpolation</papertitle>
               </a>
               <br>
               Ri Cheng , Xuhao Jiang , <strong>Ruian He</strong>, Shili Zhou , Weimin Tan , Bo Yan
@@ -105,7 +153,7 @@
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/ACMMM23_MVFlow.png" alt="clean-usnob" width="300" height="150">
+              <img src="images/ACMMM23_MVFlow.png" alt="clean-usnob" width="320" height="150">
             </td>
             <td width="75%" valign="middle">
               <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3611750">
@@ -121,7 +169,7 @@
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/CVPRW23_Anti-UAV.png" alt="clean-usnob" width="300" height="200">
+              <img src="images/CVPRW23_Anti-UAV.png" alt="clean-usnob" width="320" height="200">
             </td>
             <td width="75%" valign="middle">
               <a href="https://openaccess.thecvf.com/content/CVPR2023W/Anti-UAV/html/He_Motion_Matters_Difference-Based_Multi-Scale_Learning_for_Infrared_UAV_Detection_CVPRW_2023_paper.html">
@@ -210,7 +258,7 @@
                 </p>
                 <ul>
                   <li> AAAI (2023, 2024)</li>
-                  <li> CVPR (2022)</li>
+                  <li> CVPR (2022, 2024)</li>
                   <li> ICCV (2023)</li>
                   <li> IEEEVR (2023)</li>
                 </ul>
@@ -255,7 +303,7 @@
                   <br>
                   <br>
                 </p><div style="float:left;">
-                  Updated at Nov. 2023.
+                  Updated at Jan. 2024.
                 </div>
                 <div style="float:right;">
                   <a href="https://jonbarron.info">Template</a>
