@@ -88,10 +88,11 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/AAAI24_STSSNet.png" alt="clean-usnob" width="320" height="240">
-            </td>
-            <td width="75%" valign="middle">
+            <td style="padding:20px;vertical-align:middle" align="center">
+              <img src="images/AAAI24_STSSNet.png" alt="clean-usnob" width="320" height="200">
+            </td>  
+          </tr><tr>
+            <td style="padding:20px;vertical-align:middle">
               <a href="https://arxiv.org/abs/2312.10890">
                 <papertitle>Low-latency Space-time Supersampling for Real-time Rendering</papertitle>
               </a>
@@ -99,15 +100,17 @@
               <strong>Ruian He*</strong>, Shili Zhou*, Yuqi Sun, Ri Cheng, Weimin Tan , Bo Yan
               <br>
               <em>AAAI</em>, 2024
-              <p> In this paper, we recognize the shared context and mechanisms between frame supersampling and extrapolation, and present a novel framework, Space-time Supersampling (STSS). To implement an efficient architecture, we treat the aliasing and warping holes unified as reshading regions and put forth two key components to compensate the regions, namely Random Reshading Masking (RRM) and Efficient Reshading Module (ERM). Notably, the performance is achieved within only 4ms, saving up to 75\% of time against the conventional two-stage pipeline that necessitates 17ms.</p>
+              <p> We recognize the shared context and mechanisms between frame supersampling and extrapolation, save up to 75% of time against the conventional two-stage pipeline that necessitates 17ms.
+                </p>
             </td>
           </tr>
 
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/AAAI24_SAMFlow.png" alt="clean-usnob" width="320" height="350">
+            <td style="padding:20px;vertical-align:middle" align="center">
+              <img src="images/AAAI24_SAMFlow.png" alt="clean-usnob" width="320" height="200">
             </td>
-            <td width="75%" valign="middle">
+          </tr><tr>
+            <td style="padding:20px;vertical-align:middle">
               <a href="https://arxiv.org/abs/2307.16586">
                 <papertitle>SAMFlow: Eliminating Any Fragmentation in Optical Flow with Segment Anything Model</papertitle>
               </a>
@@ -115,15 +118,16 @@
               Shili Zhou, <strong>Ruian He</strong>, Weimin Tan , Bo Yan
               <br>
               <em>AAAI</em>, 2024
-              <p> Optical Flow Estimation aims to find the 2D dense motion field between two frames. Due to the limitation of model structures and training datasets, existing methods often rely too much on local clues and ignore the integrity of objects, resulting in fragmented motion estimation. Through theoretical analysis, we find the pre-trained large vision models are helpful in optical flow estimation, and we notice that the recently famous Segment Anything Model (SAM) demonstrates a strong ability to segment complete objects, which is suitable for solving the fragmentation problem. </p>
+              <p> Through theoretical analysis, we find the pre-trained large vision models are helpful in optical flow estimation, and SAM is suitable for solving the fragmentation problem. </p>
             </td>
           </tr>
 
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="padding:20px;vertical-align:middle" align="center">
               <img src="images/AAAI24_CAIP.png" alt="clean-usnob" width="320" height="200">
             </td>
-            <td width="75%" valign="middle">
+          </tr><tr>
+            <td style="padding:20px;vertical-align:middle">
               <a href="https://arxiv.org/abs/2312.07180">
                 <papertitle>Context-Aware Iteration Policy Network for Efficient Optical Flow Estimation</papertitle>
               </a>
@@ -131,15 +135,16 @@
               Ri Cheng, <strong>Ruian He</strong>, Xuhao Jiang, Shili Zhou, Weimin Tan , Bo Yan
               <br>
               <em>AAAI</em>, 2024
-              <p>  In this paper, we develop a Context-Aware Iteration Policy Network for efficient optical flow estimation, which determines the optimal number of iterations per sample. The policy network achieves this by learning contextual information to realize whether flow improvement is bottlenecked or minimal. Our policy network can be easily integrated into state-of-the-art optical flow networks. Extensive experiments show that our method maintains performance while reducing FLOPs by about 40%/20% for the Sintel/KITTI datasets.</p>
+              <p>  We develop a Context-Aware Iteration Policy Network, which determines the optimal number of iterations per sample and reduce FLOPs by about 40%/20% for the Sintel/KITTI datasets.</p>
             </td>
           </tr>
 
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="padding:20px;vertical-align:middle" align="center">
               <img src="images/ACMMM23_UGSP.png" alt="clean-usnob" width="320" height="250">
             </td>
-            <td width="75%" valign="middle">
+          </tr><tr>
+            <td style="padding:20px;vertical-align:middle">
               <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3611752">
                 <papertitle>Uncertainty-Guided Spatial Pruning Architecture for Efficient Frame Interpolation</papertitle>
               </a>
@@ -147,15 +152,16 @@
               Ri Cheng , Xuhao Jiang , <strong>Ruian He</strong>, Shili Zhou , Weimin Tan , Bo Yan
               <br>
               <em>ACMMM</em>, 2023
-              <p> The video frame interpolation (VFI) model applies the convolution operation to all locations, leading to redundant computations in regions with easy motion. We can use dynamic spatial pruning method to skip redundant computation, but this method cannot properly identify easy regions in VFI tasks without supervision. In this paper, we develop an Uncertainty-Guided Spatial Pruning (UGSP) architecture to skip redundant computation for efficient frame interpolation dynamically.</p>
+              <p> We develop an Uncertainty-Guided Spatial Pruning (UGSP) architecture to skip redundant computation for efficient frame interpolation dynamically.</p>
             </td>
           </tr>
 
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="padding:20px;vertical-align:middle" align="center">
               <img src="images/ACMMM23_MVFlow.png" alt="clean-usnob" width="320" height="150">
             </td>
-            <td width="75%" valign="middle">
+          </tr><tr>
+            <td style="padding:20px;vertical-align:middle">
               <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3611750">
                 <papertitle>MVFlow: Deep Optical Flow Estimation of Compressed Videos with Motion Vector Prior</papertitle>
               </a>
@@ -163,15 +169,16 @@
               Shili Zhou*, Xuhao Jiang*, Weimin Tan, <strong>Ruian He</strong>, Bo Yan
               <br>
               <em>ACMMM</em>, 2023
-              <p> Motion vectors, one of the compression information, record the motion of the video frames. They can be directly extracted from the compression code stream without computational cost and serve as a solid prior for optical flow estimation. Therefore, we propose an optical flow model, MVFlow, which uses motion vectors to improve the speed and accuracy of optical flow estimation for compressed videos.</p>
+              <p> We propose an optical flow model, MVFlow, which uses motion vectors to improve the speed and accuracy of optical flow estimation for compressed videos.</p>
             </td>
           </tr>
 
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="padding:20px;vertical-align:middle" align="center">
               <img src="images/CVPRW23_Anti-UAV.png" alt="clean-usnob" width="320" height="200">
             </td>
-            <td width="75%" valign="middle">
+          </tr><tr>
+            <td style="padding:20px;vertical-align:middle">
               <a href="https://openaccess.thecvf.com/content/CVPR2023W/Anti-UAV/html/He_Motion_Matters_Difference-Based_Multi-Scale_Learning_for_Infrared_UAV_Detection_CVPRW_2023_paper.html">
                 <papertitle>Motion Matters: Difference-based Multi-scale Learning for Infrared UAV Detection</papertitle>
               </a>
@@ -179,15 +186,16 @@
               <strong>Ruian He</strong>, Shili Zhou, Ri Cheng, Yuqi Sun, Weimin Tan, Bo Yan
               <br>
               <em>The 3nd Anti-UAV Workshop & Challenge - CVPR Workshops</em>, 2023
-              <p> In this paper, we propose a novel learning framework for robust UAV detectors, which we call Difference-based Multi-scale Learning (DML). Our method utilizes the frame difference of multiple previous frames, extracting motion information and blocking background noise. We also fuse multiple spatial-temporal scales for training and inferencing, enabling fusion from different sources.</p>
+              <p> Our method utilizes the frame difference of multiple previous frames and fuse multiple spatial-temporal scales.</p>
             </td>
           </tr>
 				
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="padding:20px;vertical-align:middle" align="center">
               <img src="images/ICASSP23_Fine-grained.png" alt="clean-usnob" width="320" height="160">
             </td>
-            <td width="75%" valign="middle">
+          </tr><tr>
+            <td style="padding:20px;vertical-align:middle">
               <a href="https://ieeexplore.ieee.org/document/10097082/">
                 <papertitle>Fine-grained Blind Face Inpainting with 3D Face Component Disentanglement</papertitle>
               </a>
@@ -195,15 +203,16 @@
               Yu Bai, <strong>Ruian He</strong>, Weimin Tan, Bo Yan, Yangle Lin
               <br>
               <em>ICASSP</em>, 2023
-              <p> In this paper, we propose a novel fine-grained blind face inpainting framework, combining 3D face components disentanglement with generative network. We also build up a new dataset called CelebO-3D which consists of occluded face images synthesized with 3D occlusion and rendered by 3D face model.</p>
+              <p> We propose a novel fine-grained blind face inpainting framework and build up a new dataset called CelebO-3D.</p>
             </td>
           </tr>
 
           <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <td style="padding:20px;vertical-align:middle" align="center">
               <img src="images/ACMMM22_Co-Completion.png" alt="clean-usnob" width="320" height="160">
             </td>
-            <td width="75%" valign="middle">
+          </tr><tr>
+            <td style="padding:20px;vertical-align:middle">
               <a href="https://dl.acm.org/doi/abs/10.1145/3503161.3548183">
                 <papertitle>Co-completion for occluded facial expression recognition</papertitle>
               </a>
@@ -211,9 +220,7 @@
               Zhen Xing*, Weimin Tan*, <strong>Ruian He</strong>, Yangle Lin, Bo Yan
               <br>
               <em>ACMMM</em>, 2022
-              <p> In this paper, we propose Co-Completion,
-                a task-specific framework which first combines occlusion discarding and feature completion together to reduce the interference of
-                occlusions on instance level.</p>
+              <p> We propose a task-specific framework which first combines occlusion discarding and feature completion together to reduce the interference of occlusions on instance level.</p>
             </td>
           </tr>
 
