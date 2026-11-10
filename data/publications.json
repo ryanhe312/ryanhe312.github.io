@@ -1,0 +1,432 @@
+[
+  {
+    "id": "wuying",
+    "title": "Wuying-Browser-Agent: Real-World Centric Fundamental Long-Horizon Browser Agents",
+    "authors": [
+      "AIMAE Team",
+      "Tianxiang Chen",
+      "Yan Cheng",
+      "Zhangye Han",
+      "Xiaowei Li",
+      "Chang Liu",
+      "Cheng Liu",
+      "Zhongqiang Ma",
+      "Long Peng",
+      "Xiaobing Tu",
+      "Yinggui Wang",
+      "Hongliang Wei",
+      "Chen Wu",
+      "Daiping Xin",
+      "Kunyu Zhou",
+      "Pengyang Zhou",
+      "Peiyuan Chen",
+      "Ziyuan Chen",
+      "Yutao Deng",
+      "Chunyu Dong",
+      "Xiangyu Fu",
+      "Yicheng Feng",
+      "Ruian He",
+      "Haochen Li",
+      "Miancan Liu",
+      "Zhengqin Liu",
+      "Wei Peng",
+      "Jinkui Ren",
+      "Haoyu Tan",
+      "Dong Xiao",
+      "Rongkun Xue",
+      "Shujian Yang",
+      "Xianhang Ye",
+      "Ziqi Yuan",
+      "Ziyang Yu",
+      "Linghan Zhang",
+      "Xiantao Zhang",
+      "Xuanpu Zhao",
+      "Yinan Zhao",
+      "Zhenghui Zhao",
+      "Bin Zhu",
+      "Likai Zou"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.17319",
+    "summary": "Long-horizon browser agents designed for tasks in real-world web environments.",
+    "venue": "arXiv",
+    "status": "preprint"
+  },
+  {
+    "id": "microworld",
+    "title": "MicroWorld: Empowering Multimodal Large Language Models to Bridge the Microscopic Domain Gap with Multimodal Attributed Property Graph",
+    "authors": [
+      "Manyu Li",
+      "Ruian He",
+      "Chenxi Ma",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.10120",
+    "summary": "Structured knowledge and visual retrieval to support multimodal reasoning in microscopy.",
+    "venue": "NeurIPS",
+    "status": "published",
+    "aliases": [
+      "MicroWorld: Empowering Multimodal Large Language Models to Bridge the Microscopic Domain Gap with Multimodal Attribute Graph"
+    ]
+  },
+  {
+    "id": "nucs",
+    "title": "Non-Uniform Class-Wise Coreset Selection for Vision Model Fine-tuning",
+    "authors": [
+      "Hanyu Zhang",
+      "Zhen Xing",
+      "Ruian He",
+      "Wenxuan Yang",
+      "Chenxi Ma",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2504.13234",
+    "summary": "Difficulty-aware selection allocates data budgets across classes for efficient model fine-tuning.",
+    "venue": "ACM Multimedia",
+    "status": "published"
+  },
+  {
+    "id": "tstsr",
+    "title": "Efficient Trajectory Space-Time Super-Resolution for Fast Live-cell Imaging",
+    "authors": [
+      "Ruian He",
+      "Zixian Zhang",
+      "Ri Cheng",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "venue": "ACM Multimedia",
+    "year": 2025,
+    "status": "published",
+    "url": "https://dl.acm.org/doi/10.1145/3746027.3754914",
+    "image": "images/ACMMM25_TSTSR.jpg",
+    "summary": "We propose Trajectory Space-Time Super-Resolution (T-STSR), a method designed to boost frame rates and resolution in fast subcellular imaging while significantly reducing computational overhead."
+  },
+  {
+    "id": "retfound-de",
+    "title": "A data-efficient strategy for building high-performing medical foundation models",
+    "authors": [
+      "Yuqi Sun*",
+      "Weimin Tan*",
+      "Zhuoyao Gu",
+      "Ruian He",
+      "Siyuan Chen",
+      "Miao Pang",
+      "Bo Yan"
+    ],
+    "venue": "Nature Biomedical Engineering",
+    "year": 2025,
+    "status": "published",
+    "url": "https://www.nature.com/articles/s41551-025-01365-0",
+    "image": "images/NBE2025_RETFound-DE.webp",
+    "summary": "We show that pretraining on approximately one million synthetic images allows a retinal foundation model trained on only 16.7% of 904,170 real images to match or exceed the performance of RETFound trained on the full dataset across nine tasks."
+  },
+  {
+    "id": "mdsr-zero",
+    "title": "Efficient Online Training for Zero-Shot Time-Lapse Microscopy Denoising and Super-Resolution",
+    "authors": [
+      "Ruian He",
+      "Ri Cheng",
+      "Xinkai Lyu",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "venue": "AAAI",
+    "year": 2025,
+    "status": "published",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/32354",
+    "image": "images/AAAI25_MDSR-Zero.png",
+    "summary": "We introduce MDSR-Zero, a zero-shot online learning method designed for plug-and-play noise suppression and super-resolution of microscopy videos."
+  },
+  {
+    "id": "microvqa",
+    "title": "MicroVQA++: High-Quality Microscopy Reasoning Dataset with Weakly Supervised Graphs for Multimodal Large Language Model",
+    "authors": [
+      "Manyu Li",
+      "Ruian He",
+      "Chenxi Ma",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2511.11407",
+    "summary": "A microscopy visual-question-answering corpus with graph-based quality control and human screening.",
+    "venue": "arXiv",
+    "status": "preprint"
+  },
+  {
+    "id": "fmiragent",
+    "title": "Self-Explained Thinking Agent for Autonomous Microscopy Restoration",
+    "authors": [
+      "Ruian He*",
+      "Weimin Tan*",
+      "Chenxi Ma",
+      "Zixian Zhang",
+      "Bo Yan"
+    ],
+    "year": 2025,
+    "url": "https://doi.org/10.21203/rs.3.rs-7116422/v1",
+    "summary": "An agent that reasons about image degradation, selects restoration strategies, and explains its decisions.",
+    "venue": "Research Square",
+    "status": "preprint",
+    "code": "https://github.com/ryanhe312/FMIRAgent",
+    "image": "images/FMIRAgent.png"
+  },
+  {
+    "id": "ullsam",
+    "title": "Unifying Segment Anything in Microscopy with Vision-Language Knowledge",
+    "authors": [
+      "Manyu Li",
+      "Ruian He",
+      "Zixian Zhang",
+      "Chenxi Ma",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2505.10769",
+    "summary": "Vision-language knowledge guides Segment Anything toward cross-domain microscopy segmentation.",
+    "venue": "arXiv",
+    "status": "preprint"
+  },
+  {
+    "id": "sub-vfi",
+    "title": "Subcellular behavior model enables highly precise temporal super-resolved live-cell imaging",
+    "authors": [
+      "Zixian Zhang*",
+      "Ruian He*",
+      "Weimin Tan",
+      "Xinda Chen",
+      "Bo Yan"
+    ],
+    "year": 2025,
+    "url": "https://doi.org/10.21203/rs.3.rs-6612059/v1",
+    "summary": "Behavior-aware particle matching improves interpolation for fast live-cell imaging.",
+    "venue": "Research Square",
+    "status": "preprint"
+  },
+  {
+    "id": "facialflownet",
+    "title": "FacialFlowNet: Advancing Facial Optical Flow Estimation with a Diverse Dataset and a Decomposed Model",
+    "authors": [
+      "Jianzhi Lu*",
+      "Ruian He*",
+      "Shili Zhou",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "venue": "ACM Multimedia",
+    "year": 2024,
+    "status": "published",
+    "url": "https://openreview.net/pdf?id=xsx39qJaLq",
+    "image": "images/ACMMM24_FacialFlowNet.png",
+    "summary": "A diverse facial optical-flow dataset and a decomposed model for facial motion estimation."
+  },
+  {
+    "id": "unifmir",
+    "title": "Pretraining a foundation model for generalizable fluorescence microscopy-based image restoration",
+    "authors": [
+      "Chenxi Ma*",
+      "Weimin Tan*",
+      "Ruian He",
+      "Bo Yan"
+    ],
+    "venue": "Nature Methods",
+    "year": 2024,
+    "status": "published",
+    "url": "https://www.nature.com/articles/s41592-024-02244-3",
+    "image": "images/NM2024_UniFMIR.jpg",
+    "summary": "We provide a universal fluorescence microscopy-based image restoration (UniFMIR) model to address different restoration problems, and show that UniFMIR offers higher image restoration precision, better generalization and increased versatility."
+  },
+  {
+    "id": "stss",
+    "title": "Low-latency Space-time Supersampling for Real-time Rendering",
+    "authors": [
+      "Ruian He*",
+      "Shili Zhou*",
+      "Yuqi Sun",
+      "Ri Cheng",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "venue": "AAAI",
+    "year": 2024,
+    "status": "published",
+    "url": "https://arxiv.org/abs/2312.10890",
+    "image": "images/AAAI24_STSSNet.png",
+    "summary": "A unified approach to frame supersampling and extrapolation for low-latency real-time rendering."
+  },
+  {
+    "id": "samflow",
+    "title": "SAMFlow: Eliminating Any Fragmentation in Optical Flow with Segment Anything Model",
+    "authors": [
+      "Shili Zhou",
+      "Ruian He",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "venue": "AAAI",
+    "year": 2024,
+    "status": "published",
+    "url": "https://arxiv.org/abs/2307.16586",
+    "image": "images/AAAI24_SAMFlow.png",
+    "summary": "Through theoretical analysis, we find the pre-trained large vision models are helpful in optical flow estimation, and SAM is suitable for solving the fragmentation problem."
+  },
+  {
+    "id": "caip",
+    "title": "Context-Aware Iteration Policy Network for Efficient Optical Flow Estimation",
+    "authors": [
+      "Ri Cheng",
+      "Ruian He",
+      "Xuhao Jiang",
+      "Shili Zhou",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "venue": "AAAI",
+    "year": 2024,
+    "status": "published",
+    "url": "https://arxiv.org/abs/2312.07180",
+    "image": "images/AAAI24_CAIP.png",
+    "summary": "A learned iteration policy adapts the computation budget to each optical-flow sample."
+  },
+  {
+    "id": "ugsp",
+    "title": "Uncertainty-Guided Spatial Pruning Architecture for Efficient Frame Interpolation",
+    "authors": [
+      "Ri Cheng",
+      "Xuhao Jiang",
+      "Ruian He",
+      "Shili Zhou",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "venue": "ACM Multimedia",
+    "year": 2023,
+    "status": "published",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3581783.3611752",
+    "image": "images/ACMMM23_UGSP.png",
+    "summary": "We develop an Uncertainty-Guided Spatial Pruning (UGSP) architecture to skip redundant computation for efficient frame interpolation dynamically."
+  },
+  {
+    "id": "mvflow",
+    "title": "MVFlow: Deep Optical Flow Estimation of Compressed Videos with Motion Vector Prior",
+    "authors": [
+      "Shili Zhou*",
+      "Xuhao Jiang*",
+      "Weimin Tan",
+      "Ruian He",
+      "Bo Yan"
+    ],
+    "venue": "ACM Multimedia",
+    "year": 2023,
+    "status": "published",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3581783.3611750",
+    "image": "images/ACMMM23_MVFlow.png",
+    "summary": "We propose an optical flow model, MVFlow, which uses motion vectors to improve the speed and accuracy of optical flow estimation for compressed videos."
+  },
+  {
+    "id": "motion-matters",
+    "title": "Motion Matters: Difference-based Multi-scale Learning for Infrared UAV Detection",
+    "authors": [
+      "Ruian He",
+      "Shili Zhou",
+      "Ri Cheng",
+      "Yuqi Sun",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "venue": "CVPR Workshops",
+    "year": 2023,
+    "status": "published",
+    "url": "https://openaccess.thecvf.com/content/CVPR2023W/Anti-UAV/html/He_Motion_Matters_Difference-Based_Multi-Scale_Learning_for_Infrared_UAV_Detection_CVPRW_2023_paper.html",
+    "image": "images/CVPRW23_Anti-UAV.png",
+    "summary": "Multi-frame differences and multi-scale features improve infrared UAV detection."
+  },
+  {
+    "id": "face-inpainting",
+    "title": "Fine-grained Blind Face Inpainting with 3D Face Component Disentanglement",
+    "authors": [
+      "Yu Bai",
+      "Ruian He",
+      "Weimin Tan",
+      "Bo Yan",
+      "Yangle Lin"
+    ],
+    "venue": "ICASSP",
+    "year": 2023,
+    "status": "published",
+    "url": "https://ieeexplore.ieee.org/document/10097082/",
+    "image": "images/ICASSP23_Fine-grained.png",
+    "summary": "We propose a novel fine-grained blind face inpainting framework and build up a new dataset called CelebO-3D."
+  },
+  {
+    "id": "latentface",
+    "title": "A Generative Framework for Self-Supervised Facial Representation Learning",
+    "authors": [
+      "Ruian He",
+      "Zhen Xing",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2309.08273",
+    "summary": "A 3D-aware generative framework disentangles facial identity and expression without paired supervision.",
+    "venue": "arXiv",
+    "status": "preprint",
+    "aliases": [
+      "Unsupervised disentangling of facial representations with 3D-aware latent diffusion models"
+    ]
+  },
+  {
+    "id": "instruct-neuraltalker",
+    "title": "Instruct-NeuralTalker: Editing Audio-Driven Talking Radiance Fields with Instructions",
+    "authors": [
+      "Yuqi Sun",
+      "Ruian He",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2306.10813",
+    "summary": "Text instructions edit audio-driven neural talking faces while preserving lip synchronization.",
+    "venue": "arXiv",
+    "status": "preprint"
+  },
+  {
+    "id": "co-completion",
+    "title": "Co-completion for occluded facial expression recognition",
+    "authors": [
+      "Zhen Xing*",
+      "Weimin Tan*",
+      "Ruian He",
+      "Yangle Lin",
+      "Bo Yan"
+    ],
+    "venue": "ACM Multimedia",
+    "year": 2022,
+    "status": "published",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3503161.3548183",
+    "image": "images/ACMMM22_Co-Completion.png",
+    "summary": "We propose a task-specific framework which first combines occlusion discarding and feature completion together to reduce the interference of occlusions on instance level."
+  },
+  {
+    "id": "fpn-affect",
+    "title": "Feature Pyramid Network for Multi-task Affective Analysis",
+    "authors": [
+      "Ruian He",
+      "Zhen Xing",
+      "Weimin Tan",
+      "Bo Yan"
+    ],
+    "year": 2021,
+    "url": "https://arxiv.org/abs/2107.03670",
+    "summary": "Hierarchical representations connect valence-arousal estimation, expression recognition, and action-unit detection.",
+    "venue": "arXiv",
+    "status": "preprint"
+  }
+]

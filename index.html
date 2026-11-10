@@ -1,404 +1,132 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  <title>Ruian He @ FDU</title>
-  
-  <meta name="author" content="Jon Barron">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="favicon.ico">
-  
-  <!-- Google tag (gtag.js) -->
+  <meta name="theme-color" content="#ffffff">
+  <title>Ruian He · Computer Vision, Multimodal AI & Agents</title>
+  <meta name="author" content="Ruian He">
+  <meta name="description" content="Ruian He (何瑞安), Algorithm Engineer at Alibaba Cloud and Postdoctoral Researcher at Shanghai Jiao Tong University. Research in computer vision, multimodal models, and agentic AI.">
+  <link rel="canonical" href="https://ryanhe312.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ruian He · Computer Vision, Multimodal AI & Agents">
+  <meta property="og:description" content="Computer vision, multimodal models, and agents. Research, publications, and projects by Ruian He.">
+  <meta property="og:url" content="https://ryanhe312.github.io/">
+  <meta property="og:image" content="https://ryanhe312.github.io/images/avatar.jpg">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="site.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Ruian He","alternateName":"何瑞安","url":"https://ryanhe312.github.io/","image":"https://ryanhe312.github.io/images/avatar.jpg","jobTitle":["Algorithm Engineer","Postdoctoral Researcher"],"worksFor":[{"@type":"Organization","name":"Alibaba Cloud"},{"@type":"CollegeOrUniversity","name":"Shanghai Jiao Tong University"}],"alumniOf":{"@type":"CollegeOrUniversity","name":"Fudan University"},"sameAs":["https://github.com/ryanhe312","https://www.linkedin.com/in/ruian-he-21497b126/","https://scholar.google.com/citations?user=dvNlwU0AAAAJ"]}</script>
+  <!-- Existing site analytics retained. -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLTBF98M9J"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-VLTBF98M9J');
-  </script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-VLTBF98M9J');</script>
 </head>
-
-<body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Ruian He | 何瑞安</name>
-              </p>
-              <p>I am a 5th-year PhD student in School of Computer Science at <a href="https://www.fudan.edu.cn">Fudan University</a>, supervised by <a href="https://dml.fudan.edu.cn/87/22/c35294a427810/page.htm">Prof. Bo Yan</a>. Before that, I received my Bachelor's degree of Computer Science at Fudan University in 2021. My research interests lie in the field of low-level vision, with application to rendering and microscopy imaging. 
-              </p>
-              <p>Email: rahe16 (at) fudan.edu.cn.
-              </p>
-              <p style="text-align:left">
-                <!-- <a href="mailto:rahe21@fudan.edu.cn">Email</a> &nbsp/&nbsp -->
-                <a href="data/CV.pdf">CV</a> &nbsp/&nbsp
-                <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp/&nbsp -->
-                <a href="https://scholar.google.com/citations?user=dvNlwU0AAAAJ&hl">Google Scholar</a> &nbsp/&nbsp
-                <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp/&nbsp -->
-                <a href="https://www.semanticscholar.org/author/Ruian-He/2118180466">Semantic Scholar</a> &nbsp/&nbsp 
-                <a href="https://dblp.uni-trier.de/pid/297/3167.html">DBLP</a> &nbsp/&nbsp 
-                <a href="https://github.com/ryanhe312">Github</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/ruian-he-21497b126">LinkedIn</a> 
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/avatar.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/avatar_circle.png" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>📰 News</heading>
-                <ul>
-                  <li> <b>[Oct 2025]</b> I am awarded National Scholarship again this year 🎉</li>
-                </ul>
-              </td>
-            </tr>
-      </tbody></table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>📕 Publications</heading>
-              <p>(*: Equal contribution)
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-
-
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src="images/ACMMM25_TSTSR.jpg" alt="clean-usnob" width="320" height="200">
-            </td>  
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://dl.acm.org/doi/10.1145/3746027.3754914">
-                <papertitle>Efficient Trajectory Space-Time Super-Resolution for Fast Live-cell Imaging</papertitle>
-              </a>
-              <br>
-              <strong>Ruian He</strong>, Zixian Zhang, Ri Cheng, Weimin Tan, Bo Yan
-              <br>
-              <em>ACMMM</em>, 2025
-              <p>We propose Trajectory Space-Time Super-Resolution (T-STSR), a method designed to boost frame rates and resolution in fast subcellular imaging while significantly reducing computational overhead. </p>
-            </td>
-			</tr>
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src="images/NBE2025_RETFound-DE.webp" alt="clean-usnob" width="320">
-            </td>  
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://www.nature.com/articles/s41551-025-01365-0">
-                <papertitle>A data-efficient strategy for building high-performing medical foundation models</papertitle>
-              </a>
-              <br>
-		Yuqi Sun*, Weimin Tan*, Zhuoyao Gu, <strong>Ruian He</strong>, Siyuan Chen, Miao Pang, Bo Yan
-              <br>
-              <em>Nature Biomedical Engineering</em>, 2025
-              <p> We show that pretraining on approximately one million synthetic images allows a retinal foundation model trained on only 16.7% of 904,170 real images to match or exceed the performance of RETFound trained on the full dataset across nine tasks.
-                </p>
-            </td>
-          </tr>
-		
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src="images/AAAI25_MDSR-Zero.png" alt="clean-usnob" width="320" height="200">
-            </td>  
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32354">
-                <papertitle>Efficient Online Training for Zero-Shot Time-Lapse Microscopy Denoising and Super-Resolution</papertitle>
-              </a>
-              <br>
-              <strong>Ruian He</strong>, Ri Cheng, Xinkai Lyu, Weimin Tan, Bo Yan
-              <br>
-              <em>AAAI</em>, 2025
-              <p>We introduce MDSR-Zero, a zero-shot online learning method designed for plug-and-play noise suppression and super-resolution of microscopy videos. </p>
-            </td>
-          </tr>
-		
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src="images/ACMMM24_FacialFlowNet.png" alt="clean-usnob" width="320" height="120">
-            </td>  
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://openreview.net/pdf?id=xsx39qJaLq">
-                <papertitle>FacialFlowNet: Advancing Facial Optical Flow Estimation with a Diverse Dataset and a Decomposed Model</papertitle>
-              </a>
-              <br>
-              Jianzhi Lu*, <strong>Ruian He*</strong>, Shili Zhou, Weimin Tan, Bo Yan
-              <br>
-              <em>ACMMM</em>, 2024
-              <p> We proposes FacialFlowNet, a novel large-scale facial optical flow dataset, and the Decomposed Facial Flow Model, the first method capable of decomposing facial flow.  
-                </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src="images/NM2024_UniFMIR.jpg" alt="clean-usnob" width="320" height="200">
-            </td>  
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://www.nature.com/articles/s41592-024-02244-3">
-                <papertitle>Pre-training a Foundation Model for Generalizable Fluorescence Microscopy-Based Image Restoration</papertitle>
-              </a>
-              <br>
-              Chenxi Ma*, Weimin Tan*, <strong>Ruian He</strong>, Bo Yan
-              <br>
-              <em>Nature Methods</em>, 2024
-              <p> We provide a universal fluorescence microscopy-based image restoration (UniFMIR) model to address different restoration problems, and show that UniFMIR offers higher image restoration precision, better generalization and increased versatility. 
-                </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src="images/AAAI24_STSSNet.png" alt="clean-usnob" width="320" height="200">
-            </td>  
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2312.10890">
-                <papertitle>Low-latency Space-time Supersampling for Real-time Rendering</papertitle>
-              </a>
-              <br>
-              <strong>Ruian He*</strong>, Shili Zhou*, Yuqi Sun, Ri Cheng, Weimin Tan , Bo Yan
-              <br>
-              <em>AAAI</em>, 2024
-              <p> We recognize the shared context and mechanisms between frame supersampling and extrapolation, save up to 75% of time against the conventional two-stage pipeline that necessitates 17ms.
-                </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src="images/AAAI24_SAMFlow.png" alt="clean-usnob" width="320" height="200">
-            </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2307.16586">
-                <papertitle>SAMFlow: Eliminating Any Fragmentation in Optical Flow with Segment Anything Model</papertitle>
-              </a>
-              <br>
-              Shili Zhou, <strong>Ruian He</strong>, Weimin Tan , Bo Yan
-              <br>
-              <em>AAAI</em>, 2024
-              <p> Through theoretical analysis, we find the pre-trained large vision models are helpful in optical flow estimation, and SAM is suitable for solving the fragmentation problem. </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src="images/AAAI24_CAIP.png" alt="clean-usnob" width="320" height="200">
-            </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2312.07180">
-                <papertitle>Context-Aware Iteration Policy Network for Efficient Optical Flow Estimation</papertitle>
-              </a>
-              <br>
-              Ri Cheng, <strong>Ruian He</strong>, Xuhao Jiang, Shili Zhou, Weimin Tan , Bo Yan
-              <br>
-              <em>AAAI</em>, 2024
-              <p>  We develop a Context-Aware Iteration Policy Network, which determines the optimal number of iterations per sample and reduce FLOPs by about 40%/20% for the Sintel/KITTI datasets.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src="images/ACMMM23_UGSP.png" alt="clean-usnob" width="320" height="250">
-            </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3611752">
-                <papertitle>Uncertainty-Guided Spatial Pruning Architecture for Efficient Frame Interpolation</papertitle>
-              </a>
-              <br>
-              Ri Cheng , Xuhao Jiang , <strong>Ruian He</strong>, Shili Zhou , Weimin Tan , Bo Yan
-              <br>
-              <em>ACMMM</em>, 2023
-              <p> We develop an Uncertainty-Guided Spatial Pruning (UGSP) architecture to skip redundant computation for efficient frame interpolation dynamically.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src="images/ACMMM23_MVFlow.png" alt="clean-usnob" width="320" height="150">
-            </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3611750">
-                <papertitle>MVFlow: Deep Optical Flow Estimation of Compressed Videos with Motion Vector Prior</papertitle>
-              </a>
-              <br>
-              Shili Zhou*, Xuhao Jiang*, Weimin Tan, <strong>Ruian He</strong>, Bo Yan
-              <br>
-              <em>ACMMM</em>, 2023
-              <p> We propose an optical flow model, MVFlow, which uses motion vectors to improve the speed and accuracy of optical flow estimation for compressed videos.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src="images/CVPRW23_Anti-UAV.png" alt="clean-usnob" width="320" height="200">
-            </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://openaccess.thecvf.com/content/CVPR2023W/Anti-UAV/html/He_Motion_Matters_Difference-Based_Multi-Scale_Learning_for_Infrared_UAV_Detection_CVPRW_2023_paper.html">
-                <papertitle>Motion Matters: Difference-based Multi-scale Learning for Infrared UAV Detection</papertitle>
-              </a>
-              <br>
-              <strong>Ruian He</strong>, Shili Zhou, Ri Cheng, Yuqi Sun, Weimin Tan, Bo Yan
-              <br>
-              <em>The 3nd Anti-UAV Workshop & Challenge - CVPR Workshops</em>, 2023
-              <p> Our method utilizes the frame difference of multiple previous frames and fuse multiple spatial-temporal scales.</p>
-            </td>
-          </tr>
-				
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src="images/ICASSP23_Fine-grained.png" alt="clean-usnob" width="320" height="160">
-            </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://ieeexplore.ieee.org/document/10097082/">
-                <papertitle>Fine-grained Blind Face Inpainting with 3D Face Component Disentanglement</papertitle>
-              </a>
-              <br>
-              Yu Bai, <strong>Ruian He</strong>, Weimin Tan, Bo Yan, Yangle Lin
-              <br>
-              <em>ICASSP</em>, 2023
-              <p> We propose a novel fine-grained blind face inpainting framework and build up a new dataset called CelebO-3D.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:16px;width:20%;vertical-align:middle">
-              <img src="images/ACMMM22_Co-Completion.png" alt="clean-usnob" width="320" height="160">
-            </td>
-            <td style="padding:8px;width:80%;vertical-align:middle">
-              <a href="https://dl.acm.org/doi/abs/10.1145/3503161.3548183">
-                <papertitle>Co-completion for occluded facial expression recognition</papertitle>
-              </a>
-              <br>
-              Zhen Xing*, Weimin Tan*, <strong>Ruian He</strong>, Yangle Lin, Bo Yan
-              <br>
-              <em>ACMMM</em>, 2022
-              <p> We propose a task-specific framework which first combines occlusion discarding and feature completion together to reduce the interference of occlusions on instance level.</p>
-            </td>
-          </tr>
-
-        </tbody></table>
-
-        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Projects</heading>
-          </td>
-        </tr>
-      </tbody></table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr>
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            <img src="images/ACMMM22_Co-Completion.png" alt="clean-usnob" width="320" height="160">
-          </td>
-          <td width="75%" valign="middle">
-            <a href="https://dl.acm.org/doi/abs/10.1145/3503161.3548183">
-              <papertitle>Co-completion for occluded facial expression recognition</papertitle>
-            </a>
-            <br>
-            Zhen Xing*, Weimin Tan*, <strong>Ruian He</strong>, Yangle Lin, Bo Yan
-            <br>
-            <em>Proceedings of the 30th ACM International Conference on Multimedia</em>, 130–140, 2022
-            <p> In this paper, we propose Co-Completion,
-              a task-specific framework which first combines occlusion discarding and feature completion together to reduce the interference of
-              occlusions on instance level.</p>
-          </td>
-        </tr>
-        
-        </tbody></table> -->
-				
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>👩‍🎓 Service</heading>
-                <ul>
-                  <li>
-                    Conference Reviewer / Program Committee Member for CVPR (2022, 2024, 2025), NIPS (2024), ICCV (2023), ECCV (2024), AAAI (2023, 2024, 2025), IEEEVR (2023), ACMMM (2024).
-                  </li>
-                  <li>
-                    Journal Reviewer for TOG(2024), TPAMI (2024), TCSVT (2024). 
-                  </li>
-                  <li>
-                    Teaching Assistant for COMP130018.01 Computer Graphics A (2023 Spring, 2024 Spring, 2025 Spring), COMP130014.01 Compiler (2022 Autumn). 
-                  </li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>🏆 Prizes</heading>
-                <ul>
-                  <li> Second place in <a href="https://anti-uav.github.io/leaderboard3/index.html">the 3rd Anti-UAV Challenge</a> in CVPR 2023. </li>
-                  <li> Third Prize in <a href="https://iacc.pazhoulab-huangpu.com/contestdetail?id=64af6ccc4a0ed647faca76ee&award=1,000,000"> Fast-Motion VFI Challenge</a> in IACC 2023. </li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>🎉 Awards</heading>
-                <ul>
-					 <li> National Scholarship (Top 1%). 2025. </li>
-                  <li> National Scholarship (Top 1%). 2024. </li>
-                  <li> Jinrirencai Scholarship (10 students in Fudan). 2024. </li>
-		  <li> Award for Outstanding Ph.D. Students. 2021, 2023. </li>
-                  <li> Boxue Scholarship (Top 10%). 2017. </li>
-                  <li> Award for Outstanding Undergraduate Students. 2018, 2019, 2020. </li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tbody>
-            <tr>
-              <td style="padding:0px">
-                <p font-size:small;="">
-                  <br>
-                  <br>
-                </p><div style="float:left;">
-                  Updated at March 2025.
-                </div>
-                <div style="float:right;">
-                  <a href="https://jonbarron.info">Template</a>
-                </div>
-                <br>
-                <br>
-                <p></p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-
-      </td>
-    </tr>
-  </table>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header">
+    <a class="wordmark" href="#top" aria-label="Ruian He home">Ruian He<span lang="zh">何瑞安</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#preprints">Preprints</a>
+      <a class="contact-link" href="mailto:rahe16@fudan.edu.cn">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section id="about" class="about section first-section" aria-labelledby="about-title"><div class="page-width about-grid">
+      <div class="about-intro"><h1 id="about-title">Ruian He<span lang="zh">何瑞安</span></h1><div class="portrait"><img src="images/avatar.jpg" alt="Portrait of Ruian He" width="112" height="112" loading="lazy"><div><p>Ruian He <span lang="zh">何瑞安</span></p><span>Researcher & engineer<br>Shanghai, China</span></div></div></div>
+      <div class="about-content"><p>I am an Algorithm Engineer at Alibaba Cloud and a Postdoctoral Researcher at Shanghai Jiao Tong University. I am currently advised by <a href="https://scholar.google.com/citations?user=AK9VF30AAAAJ&amp;hl=zh-CN">Prof. Linfeng Zhang</a> and <a href="https://www.linkedin.com/in/xiantao-zhang-66bb4317/">Dr. Xiantao Zhang</a>.</p><p>I received my Ph.D. in Computer Science from Fudan University in June 2026, advised by <a href="https://dml.fudan.edu.cn/87/22/c35294a427810/page.htm">Prof. Bo Yan</a>, and my bachelor's degree in Computer Science from Fudan in 2021.</p><p>My research interests span <strong>computer vision, multimodal language models, and agentic AI</strong>.</p>
+        <div class="timeline"><div><span>2026 — Present</span><p>Alibaba Cloud<span>Algorithm Engineer · Since October</span></p></div><div><span>2026 — Present</span><p>Shanghai Jiao Tong University<span>Postdoctoral Researcher · Since October</span></p></div><div><span>Jun — Oct 2026</span><p>Alibaba Cloud<span>Intern</span></p></div><div><span>Mar — Jun 2025</span><p>Microsoft Research Asia<span>Research Intern · Shanghai System and Engineering Group<br>Chain-of-thought reasoning for multimodal language models</span></p></div><div><span>2021 — 2026</span><p>Fudan University<span>Ph.D. in Computer Science · September 2021 – June 2026</span></p></div><div><span>2016 — 2021</span><p>Fudan University<span>Bachelor's degree in Computer Science</span></p></div></div>
+        <div class="about-links"><a class="text-link" href="https://www.linkedin.com/in/ruian-he-21497b126/">LinkedIn ↗</a><a class="text-link" href="https://github.com/ryanhe312">GitHub ↗</a></div>
+      </div>
+    </div></section>
+    <section id="research" class="section page-width" aria-labelledby="research-title">
+      <div class="section-heading"><div><h2 id="research-title">Selected research</h2></div><a class="text-link" href="#publications">Browse all papers <span aria-hidden="true">↗</span></a></div>
+      <div class="research-grid">
+        <article class="research-card"><a href="https://github.com/ryanhe312/FMIRAgent" class="research-visual mint"><img src="images/FMIRAgent.png" alt="FMIRAgent interface for microscopy image restoration" loading="lazy" width="800" height="500"></a><p class="small-label">Agents for science · Preprint, 2025</p><h3><a href="https://doi.org/10.21203/rs.3.rs-7116422/v1">FMIRAgent <span aria-hidden="true">↗</span></a></h3><p>FMIRAgent connects visual perception, reasoning, and restoration strategies for microscopy.</p><a class="text-link" href="https://github.com/ryanhe312/FMIRAgent">Explore the code <span aria-hidden="true">↗</span></a></article>
+        <article class="research-card"><a href="https://www.nature.com/articles/s41592-024-02244-3" class="research-visual peach"><img src="images/NM2024_UniFMIR.jpg" alt="UniFMIR architecture for multiple fluorescence microscopy restoration tasks" loading="lazy" width="790" height="599"></a><p class="small-label">Scientific imaging · Nature Methods, 2024</p><h3><a href="https://www.nature.com/articles/s41592-024-02244-3">UniFMIR <span aria-hidden="true">↗</span></a></h3><p>UniFMIR uses pretraining to address a range of fluorescence microscopy image restoration tasks.</p><a class="text-link" href="https://www.nature.com/articles/s41592-024-02244-3">Read the paper <span aria-hidden="true">↗</span></a></article>
+        <article class="research-card"><a href="https://arxiv.org/abs/2312.10890" class="research-visual lavender"><img src="images/AAAI24_STSSNet.png" alt="Space-time supersampling unifies extrapolation and supersampling for real-time rendering" loading="lazy" width="1662" height="1140"></a><p class="small-label">Efficient visual computing · AAAI, 2024</p><h3><a href="https://arxiv.org/abs/2312.10890">Space-time supersampling <span aria-hidden="true">↗</span></a></h3><p>Space-time supersampling brings frame extrapolation and supersampling into one low-latency framework.</p><a class="text-link" href="https://arxiv.org/abs/2312.10890">Read the paper <span aria-hidden="true">↗</span></a></article>
+      </div>
+    </section>
+    <section id="papers" class="section page-width" aria-labelledby="index-title">
+      <div class="section-heading"><div><h2 id="index-title">Publications &amp; preprints</h2></div><a class="text-link" href="data/publications.bib" download>Download BibTeX <span aria-hidden="true">↓</span></a></div>
+      <div class="paper-controls" hidden><label class="search-label"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">Search papers</span><input id="paper-search" type="search" placeholder="Search by title, author, or topic" autocomplete="off"></label><label class="year-label"><span class="sr-only">Filter papers by year</span><select id="paper-year"><option value="all">All years</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option></select></label><button id="reset-filters" class="reset-button" type="button">Reset</button></div>
+      <p class="index-note"><span class="paper-count" aria-live="polite">23 papers</span> · * Equal contribution.</p>
+      <section id="publications" class="paper-group" aria-labelledby="published-title"><div class="group-heading"><h3 id="published-title">Published papers <span class="group-count">15</span></h3></div><div class="paper-list"><article class="paper" id="paper-microworld" data-year="2026" data-status="published" data-search="MicroWorld: Empowering Multimodal Large Language Models to Bridge the Microscopic Domain Gap with Multimodal Attributed Property Graph Manyu Li Ruian He Chenxi Ma Weimin Tan Bo Yan NeurIPS Structured knowledge and visual retrieval to support multimodal reasoning in microscopy. MicroWorld: Empowering Multimodal Large Language Models to Bridge the Microscopic Domain Gap with Multimodal Attribute Graph">
+  <span class="paper-year">2026</span><div class="paper-body"><h4><a href="https://arxiv.org/abs/2605.10120">MicroWorld: Empowering Multimodal Large Language Models to Bridge the Microscopic Domain Gap with Multimodal Attributed Property Graph <span aria-hidden="true">↗</span></a></h4><p class="authors">Manyu Li, <strong>Ruian He</strong>, Chenxi Ma, Weimin Tan, Bo Yan</p><p class="paper-summary">Structured knowledge and visual retrieval to support multimodal reasoning in microscopy.</p></div><div class="paper-meta"><span>NeurIPS</span></div>
+</article>
+<article class="paper" id="paper-nucs" data-year="2026" data-status="published" data-search="Non-Uniform Class-Wise Coreset Selection for Vision Model Fine-tuning Hanyu Zhang Zhen Xing Ruian He Wenxuan Yang Chenxi Ma Weimin Tan Bo Yan ACM Multimedia Difficulty-aware selection allocates data budgets across classes for efficient model fine-tuning.">
+  <span class="paper-year">2026</span><div class="paper-body"><h4><a href="https://arxiv.org/abs/2504.13234">Non-Uniform Class-Wise Coreset Selection for Vision Model Fine-tuning <span aria-hidden="true">↗</span></a></h4><p class="authors">Hanyu Zhang, Zhen Xing, <strong>Ruian He</strong>, Wenxuan Yang, Chenxi Ma, Weimin Tan, Bo Yan</p><p class="paper-summary">Difficulty-aware selection allocates data budgets across classes for efficient model fine-tuning.</p></div><div class="paper-meta"><span>ACM Multimedia</span></div>
+</article>
+<article class="paper" id="paper-tstsr" data-year="2025" data-status="published" data-search="Efficient Trajectory Space-Time Super-Resolution for Fast Live-cell Imaging Ruian He Zixian Zhang Ri Cheng Weimin Tan Bo Yan ACM Multimedia We propose Trajectory Space-Time Super-Resolution (T-STSR), a method designed to boost frame rates and resolution in fast subcellular imaging while significantly reducing computational overhead.">
+  <span class="paper-year">2025</span><div class="paper-body"><h4><a href="https://dl.acm.org/doi/10.1145/3746027.3754914">Efficient Trajectory Space-Time Super-Resolution for Fast Live-cell Imaging <span aria-hidden="true">↗</span></a></h4><p class="authors"><strong>Ruian He</strong>, Zixian Zhang, Ri Cheng, Weimin Tan, Bo Yan</p><p class="paper-summary">We propose Trajectory Space-Time Super-Resolution (T-STSR), a method designed to boost frame rates and resolution in fast subcellular imaging while significantly reducing computational overhead.</p></div><div class="paper-meta"><span>ACM Multimedia</span></div>
+</article>
+<article class="paper" id="paper-retfound-de" data-year="2025" data-status="published" data-search="A data-efficient strategy for building high-performing medical foundation models Yuqi Sun* Weimin Tan* Zhuoyao Gu Ruian He Siyuan Chen Miao Pang Bo Yan Nature Biomedical Engineering We show that pretraining on approximately one million synthetic images allows a retinal foundation model trained on only 16.7% of 904,170 real images to match or exceed the performance of RETFound trained on the full dataset across nine tasks.">
+  <span class="paper-year">2025</span><div class="paper-body"><h4><a href="https://www.nature.com/articles/s41551-025-01365-0">A data-efficient strategy for building high-performing medical foundation models <span aria-hidden="true">↗</span></a></h4><p class="authors">Yuqi Sun*, Weimin Tan*, Zhuoyao Gu, <strong>Ruian He</strong>, Siyuan Chen, Miao Pang, Bo Yan</p><p class="paper-summary">We show that pretraining on approximately one million synthetic images allows a retinal foundation model trained on only 16.7% of 904,170 real images to match or exceed the performance of RETFound trained on the full dataset across nine tasks.</p></div><div class="paper-meta"><span>Nature Biomedical Engineering</span></div>
+</article>
+<article class="paper" id="paper-mdsr-zero" data-year="2025" data-status="published" data-search="Efficient Online Training for Zero-Shot Time-Lapse Microscopy Denoising and Super-Resolution Ruian He Ri Cheng Xinkai Lyu Weimin Tan Bo Yan AAAI We introduce MDSR-Zero, a zero-shot online learning method designed for plug-and-play noise suppression and super-resolution of microscopy videos.">
+  <span class="paper-year">2025</span><div class="paper-body"><h4><a href="https://ojs.aaai.org/index.php/AAAI/article/view/32354">Efficient Online Training for Zero-Shot Time-Lapse Microscopy Denoising and Super-Resolution <span aria-hidden="true">↗</span></a></h4><p class="authors"><strong>Ruian He</strong>, Ri Cheng, Xinkai Lyu, Weimin Tan, Bo Yan</p><p class="paper-summary">We introduce MDSR-Zero, a zero-shot online learning method designed for plug-and-play noise suppression and super-resolution of microscopy videos.</p></div><div class="paper-meta"><span>AAAI</span></div>
+</article>
+<article class="paper" id="paper-facialflownet" data-year="2024" data-status="published" data-search="FacialFlowNet: Advancing Facial Optical Flow Estimation with a Diverse Dataset and a Decomposed Model Jianzhi Lu* Ruian He* Shili Zhou Weimin Tan Bo Yan ACM Multimedia A diverse facial optical-flow dataset and a decomposed model for facial motion estimation.">
+  <span class="paper-year">2024</span><div class="paper-body"><h4><a href="https://openreview.net/pdf?id=xsx39qJaLq">FacialFlowNet: Advancing Facial Optical Flow Estimation with a Diverse Dataset and a Decomposed Model <span aria-hidden="true">↗</span></a></h4><p class="authors">Jianzhi Lu*, <strong>Ruian He*</strong>, Shili Zhou, Weimin Tan, Bo Yan</p><p class="paper-summary">A diverse facial optical-flow dataset and a decomposed model for facial motion estimation.</p></div><div class="paper-meta"><span>ACM Multimedia</span></div>
+</article>
+<article class="paper" id="paper-unifmir" data-year="2024" data-status="published" data-search="Pretraining a foundation model for generalizable fluorescence microscopy-based image restoration Chenxi Ma* Weimin Tan* Ruian He Bo Yan Nature Methods We provide a universal fluorescence microscopy-based image restoration (UniFMIR) model to address different restoration problems, and show that UniFMIR offers higher image restoration precision, better generalization and increased versatility.">
+  <span class="paper-year">2024</span><div class="paper-body"><h4><a href="https://www.nature.com/articles/s41592-024-02244-3">Pretraining a foundation model for generalizable fluorescence microscopy-based image restoration <span aria-hidden="true">↗</span></a></h4><p class="authors">Chenxi Ma*, Weimin Tan*, <strong>Ruian He</strong>, Bo Yan</p><p class="paper-summary">We provide a universal fluorescence microscopy-based image restoration (UniFMIR) model to address different restoration problems, and show that UniFMIR offers higher image restoration precision, better generalization and increased versatility.</p></div><div class="paper-meta"><span>Nature Methods</span></div>
+</article>
+<article class="paper" id="paper-stss" data-year="2024" data-status="published" data-search="Low-latency Space-time Supersampling for Real-time Rendering Ruian He* Shili Zhou* Yuqi Sun Ri Cheng Weimin Tan Bo Yan AAAI A unified approach to frame supersampling and extrapolation for low-latency real-time rendering.">
+  <span class="paper-year">2024</span><div class="paper-body"><h4><a href="https://arxiv.org/abs/2312.10890">Low-latency Space-time Supersampling for Real-time Rendering <span aria-hidden="true">↗</span></a></h4><p class="authors"><strong>Ruian He*</strong>, Shili Zhou*, Yuqi Sun, Ri Cheng, Weimin Tan, Bo Yan</p><p class="paper-summary">A unified approach to frame supersampling and extrapolation for low-latency real-time rendering.</p></div><div class="paper-meta"><span>AAAI</span></div>
+</article>
+<article class="paper" id="paper-samflow" data-year="2024" data-status="published" data-search="SAMFlow: Eliminating Any Fragmentation in Optical Flow with Segment Anything Model Shili Zhou Ruian He Weimin Tan Bo Yan AAAI Through theoretical analysis, we find the pre-trained large vision models are helpful in optical flow estimation, and SAM is suitable for solving the fragmentation problem.">
+  <span class="paper-year">2024</span><div class="paper-body"><h4><a href="https://arxiv.org/abs/2307.16586">SAMFlow: Eliminating Any Fragmentation in Optical Flow with Segment Anything Model <span aria-hidden="true">↗</span></a></h4><p class="authors">Shili Zhou, <strong>Ruian He</strong>, Weimin Tan, Bo Yan</p><p class="paper-summary">Through theoretical analysis, we find the pre-trained large vision models are helpful in optical flow estimation, and SAM is suitable for solving the fragmentation problem.</p></div><div class="paper-meta"><span>AAAI</span></div>
+</article>
+<article class="paper" id="paper-caip" data-year="2024" data-status="published" data-search="Context-Aware Iteration Policy Network for Efficient Optical Flow Estimation Ri Cheng Ruian He Xuhao Jiang Shili Zhou Weimin Tan Bo Yan AAAI A learned iteration policy adapts the computation budget to each optical-flow sample.">
+  <span class="paper-year">2024</span><div class="paper-body"><h4><a href="https://arxiv.org/abs/2312.07180">Context-Aware Iteration Policy Network for Efficient Optical Flow Estimation <span aria-hidden="true">↗</span></a></h4><p class="authors">Ri Cheng, <strong>Ruian He</strong>, Xuhao Jiang, Shili Zhou, Weimin Tan, Bo Yan</p><p class="paper-summary">A learned iteration policy adapts the computation budget to each optical-flow sample.</p></div><div class="paper-meta"><span>AAAI</span></div>
+</article>
+<article class="paper" id="paper-ugsp" data-year="2023" data-status="published" data-search="Uncertainty-Guided Spatial Pruning Architecture for Efficient Frame Interpolation Ri Cheng Xuhao Jiang Ruian He Shili Zhou Weimin Tan Bo Yan ACM Multimedia We develop an Uncertainty-Guided Spatial Pruning (UGSP) architecture to skip redundant computation for efficient frame interpolation dynamically.">
+  <span class="paper-year">2023</span><div class="paper-body"><h4><a href="https://dl.acm.org/doi/abs/10.1145/3581783.3611752">Uncertainty-Guided Spatial Pruning Architecture for Efficient Frame Interpolation <span aria-hidden="true">↗</span></a></h4><p class="authors">Ri Cheng, Xuhao Jiang, <strong>Ruian He</strong>, Shili Zhou, Weimin Tan, Bo Yan</p><p class="paper-summary">We develop an Uncertainty-Guided Spatial Pruning (UGSP) architecture to skip redundant computation for efficient frame interpolation dynamically.</p></div><div class="paper-meta"><span>ACM Multimedia</span></div>
+</article>
+<article class="paper" id="paper-mvflow" data-year="2023" data-status="published" data-search="MVFlow: Deep Optical Flow Estimation of Compressed Videos with Motion Vector Prior Shili Zhou* Xuhao Jiang* Weimin Tan Ruian He Bo Yan ACM Multimedia We propose an optical flow model, MVFlow, which uses motion vectors to improve the speed and accuracy of optical flow estimation for compressed videos.">
+  <span class="paper-year">2023</span><div class="paper-body"><h4><a href="https://dl.acm.org/doi/abs/10.1145/3581783.3611750">MVFlow: Deep Optical Flow Estimation of Compressed Videos with Motion Vector Prior <span aria-hidden="true">↗</span></a></h4><p class="authors">Shili Zhou*, Xuhao Jiang*, Weimin Tan, <strong>Ruian He</strong>, Bo Yan</p><p class="paper-summary">We propose an optical flow model, MVFlow, which uses motion vectors to improve the speed and accuracy of optical flow estimation for compressed videos.</p></div><div class="paper-meta"><span>ACM Multimedia</span></div>
+</article>
+<article class="paper" id="paper-motion-matters" data-year="2023" data-status="published" data-search="Motion Matters: Difference-based Multi-scale Learning for Infrared UAV Detection Ruian He Shili Zhou Ri Cheng Yuqi Sun Weimin Tan Bo Yan CVPR Workshops Multi-frame differences and multi-scale features improve infrared UAV detection.">
+  <span class="paper-year">2023</span><div class="paper-body"><h4><a href="https://openaccess.thecvf.com/content/CVPR2023W/Anti-UAV/html/He_Motion_Matters_Difference-Based_Multi-Scale_Learning_for_Infrared_UAV_Detection_CVPRW_2023_paper.html">Motion Matters: Difference-based Multi-scale Learning for Infrared UAV Detection <span aria-hidden="true">↗</span></a></h4><p class="authors"><strong>Ruian He</strong>, Shili Zhou, Ri Cheng, Yuqi Sun, Weimin Tan, Bo Yan</p><p class="paper-summary">Multi-frame differences and multi-scale features improve infrared UAV detection.</p></div><div class="paper-meta"><span>CVPR Workshops</span></div>
+</article>
+<article class="paper" id="paper-face-inpainting" data-year="2023" data-status="published" data-search="Fine-grained Blind Face Inpainting with 3D Face Component Disentanglement Yu Bai Ruian He Weimin Tan Bo Yan Yangle Lin ICASSP We propose a novel fine-grained blind face inpainting framework and build up a new dataset called CelebO-3D.">
+  <span class="paper-year">2023</span><div class="paper-body"><h4><a href="https://ieeexplore.ieee.org/document/10097082/">Fine-grained Blind Face Inpainting with 3D Face Component Disentanglement <span aria-hidden="true">↗</span></a></h4><p class="authors">Yu Bai, <strong>Ruian He</strong>, Weimin Tan, Bo Yan, Yangle Lin</p><p class="paper-summary">We propose a novel fine-grained blind face inpainting framework and build up a new dataset called CelebO-3D.</p></div><div class="paper-meta"><span>ICASSP</span></div>
+</article>
+<article class="paper" id="paper-co-completion" data-year="2022" data-status="published" data-search="Co-completion for occluded facial expression recognition Zhen Xing* Weimin Tan* Ruian He Yangle Lin Bo Yan ACM Multimedia We propose a task-specific framework which first combines occlusion discarding and feature completion together to reduce the interference of occlusions on instance level.">
+  <span class="paper-year">2022</span><div class="paper-body"><h4><a href="https://dl.acm.org/doi/abs/10.1145/3503161.3548183">Co-completion for occluded facial expression recognition <span aria-hidden="true">↗</span></a></h4><p class="authors">Zhen Xing*, Weimin Tan*, <strong>Ruian He</strong>, Yangle Lin, Bo Yan</p><p class="paper-summary">We propose a task-specific framework which first combines occlusion discarding and feature completion together to reduce the interference of occlusions on instance level.</p></div><div class="paper-meta"><span>ACM Multimedia</span></div>
+</article></div><p class="empty-state" hidden>No published papers match your search.</p></section>
+      <section id="preprints" class="paper-group" aria-labelledby="preprint-title"><div class="group-heading"><h3 id="preprint-title">Preprints <span class="group-count">8</span></h3></div><div class="paper-list"><article class="paper" id="paper-wuying" data-year="2026" data-status="preprint" data-search="Wuying-Browser-Agent: Real-World Centric Fundamental Long-Horizon Browser Agents AIMAE Team Tianxiang Chen Yan Cheng Zhangye Han Xiaowei Li Chang Liu Cheng Liu Zhongqiang Ma Long Peng Xiaobing Tu Yinggui Wang Hongliang Wei Chen Wu Daiping Xin Kunyu Zhou Pengyang Zhou Peiyuan Chen Ziyuan Chen Yutao Deng Chunyu Dong Xiangyu Fu Yicheng Feng Ruian He Haochen Li Miancan Liu Zhengqin Liu Wei Peng Jinkui Ren Haoyu Tan Dong Xiao Rongkun Xue Shujian Yang Xianhang Ye Ziqi Yuan Ziyang Yu Linghan Zhang Xiantao Zhang Xuanpu Zhao Yinan Zhao Zhenghui Zhao Bin Zhu Likai Zou arXiv Long-horizon browser agents designed for tasks in real-world web environments.">
+  <span class="paper-year">2026</span><div class="paper-body"><h4><a href="https://arxiv.org/abs/2608.17319">Wuying-Browser-Agent: Real-World Centric Fundamental Long-Horizon Browser Agents <span aria-hidden="true">↗</span></a></h4><p class="authors">AIMAE Team, Tianxiang Chen, Yan Cheng, …, <strong>Ruian He</strong>, …, Likai Zou</p><details class="author-details"><summary>All authors</summary><p>AIMAE Team, Tianxiang Chen, Yan Cheng, Zhangye Han, Xiaowei Li, Chang Liu, Cheng Liu, Zhongqiang Ma, Long Peng, Xiaobing Tu, Yinggui Wang, Hongliang Wei, Chen Wu, Daiping Xin, Kunyu Zhou, Pengyang Zhou, Peiyuan Chen, Ziyuan Chen, Yutao Deng, Chunyu Dong, Xiangyu Fu, Yicheng Feng, <strong>Ruian He</strong>, Haochen Li, Miancan Liu, Zhengqin Liu, Wei Peng, Jinkui Ren, Haoyu Tan, Dong Xiao, Rongkun Xue, Shujian Yang, Xianhang Ye, Ziqi Yuan, Ziyang Yu, Linghan Zhang, Xiantao Zhang, Xuanpu Zhao, Yinan Zhao, Zhenghui Zhao, Bin Zhu, Likai Zou</p></details><p class="paper-summary">Long-horizon browser agents designed for tasks in real-world web environments.</p></div><div class="paper-meta"><span>arXiv</span><span class="preprint-label">Preprint</span></div>
+</article>
+<article class="paper" id="paper-microvqa" data-year="2025" data-status="preprint" data-search="MicroVQA++: High-Quality Microscopy Reasoning Dataset with Weakly Supervised Graphs for Multimodal Large Language Model Manyu Li Ruian He Chenxi Ma Weimin Tan Bo Yan arXiv A microscopy visual-question-answering corpus with graph-based quality control and human screening.">
+  <span class="paper-year">2025</span><div class="paper-body"><h4><a href="https://arxiv.org/abs/2511.11407">MicroVQA++: High-Quality Microscopy Reasoning Dataset with Weakly Supervised Graphs for Multimodal Large Language Model <span aria-hidden="true">↗</span></a></h4><p class="authors">Manyu Li, <strong>Ruian He</strong>, Chenxi Ma, Weimin Tan, Bo Yan</p><p class="paper-summary">A microscopy visual-question-answering corpus with graph-based quality control and human screening.</p></div><div class="paper-meta"><span>arXiv</span><span class="preprint-label">Preprint</span></div>
+</article>
+<article class="paper" id="paper-fmiragent" data-year="2025" data-status="preprint" data-search="Self-Explained Thinking Agent for Autonomous Microscopy Restoration Ruian He* Weimin Tan* Chenxi Ma Zixian Zhang Bo Yan Research Square An agent that reasons about image degradation, selects restoration strategies, and explains its decisions.">
+  <span class="paper-year">2025</span><div class="paper-body"><h4><a href="https://doi.org/10.21203/rs.3.rs-7116422/v1">Self-Explained Thinking Agent for Autonomous Microscopy Restoration <span aria-hidden="true">↗</span></a></h4><p class="authors"><strong>Ruian He*</strong>, Weimin Tan*, Chenxi Ma, Zixian Zhang, Bo Yan</p><p class="paper-summary">An agent that reasons about image degradation, selects restoration strategies, and explains its decisions.</p></div><div class="paper-meta"><span>Research Square</span><span class="preprint-label">Preprint</span><a href="https://github.com/ryanhe312/FMIRAgent">Code ↗</a></div>
+</article>
+<article class="paper" id="paper-ullsam" data-year="2025" data-status="preprint" data-search="Unifying Segment Anything in Microscopy with Vision-Language Knowledge Manyu Li Ruian He Zixian Zhang Chenxi Ma Weimin Tan Bo Yan arXiv Vision-language knowledge guides Segment Anything toward cross-domain microscopy segmentation.">
+  <span class="paper-year">2025</span><div class="paper-body"><h4><a href="https://arxiv.org/abs/2505.10769">Unifying Segment Anything in Microscopy with Vision-Language Knowledge <span aria-hidden="true">↗</span></a></h4><p class="authors">Manyu Li, <strong>Ruian He</strong>, Zixian Zhang, Chenxi Ma, Weimin Tan, Bo Yan</p><p class="paper-summary">Vision-language knowledge guides Segment Anything toward cross-domain microscopy segmentation.</p></div><div class="paper-meta"><span>arXiv</span><span class="preprint-label">Preprint</span></div>
+</article>
+<article class="paper" id="paper-sub-vfi" data-year="2025" data-status="preprint" data-search="Subcellular behavior model enables highly precise temporal super-resolved live-cell imaging Zixian Zhang* Ruian He* Weimin Tan Xinda Chen Bo Yan Research Square Behavior-aware particle matching improves interpolation for fast live-cell imaging.">
+  <span class="paper-year">2025</span><div class="paper-body"><h4><a href="https://doi.org/10.21203/rs.3.rs-6612059/v1">Subcellular behavior model enables highly precise temporal super-resolved live-cell imaging <span aria-hidden="true">↗</span></a></h4><p class="authors">Zixian Zhang*, <strong>Ruian He*</strong>, Weimin Tan, Xinda Chen, Bo Yan</p><p class="paper-summary">Behavior-aware particle matching improves interpolation for fast live-cell imaging.</p></div><div class="paper-meta"><span>Research Square</span><span class="preprint-label">Preprint</span></div>
+</article>
+<article class="paper" id="paper-latentface" data-year="2023" data-status="preprint" data-search="A Generative Framework for Self-Supervised Facial Representation Learning Ruian He Zhen Xing Weimin Tan Bo Yan arXiv A 3D-aware generative framework disentangles facial identity and expression without paired supervision. Unsupervised disentangling of facial representations with 3D-aware latent diffusion models">
+  <span class="paper-year">2023</span><div class="paper-body"><h4><a href="https://arxiv.org/abs/2309.08273">A Generative Framework for Self-Supervised Facial Representation Learning <span aria-hidden="true">↗</span></a></h4><p class="authors"><strong>Ruian He</strong>, Zhen Xing, Weimin Tan, Bo Yan</p><p class="paper-summary">A 3D-aware generative framework disentangles facial identity and expression without paired supervision.</p></div><div class="paper-meta"><span>arXiv</span><span class="preprint-label">Preprint</span></div>
+</article>
+<article class="paper" id="paper-instruct-neuraltalker" data-year="2023" data-status="preprint" data-search="Instruct-NeuralTalker: Editing Audio-Driven Talking Radiance Fields with Instructions Yuqi Sun Ruian He Weimin Tan Bo Yan arXiv Text instructions edit audio-driven neural talking faces while preserving lip synchronization.">
+  <span class="paper-year">2023</span><div class="paper-body"><h4><a href="https://arxiv.org/abs/2306.10813">Instruct-NeuralTalker: Editing Audio-Driven Talking Radiance Fields with Instructions <span aria-hidden="true">↗</span></a></h4><p class="authors">Yuqi Sun, <strong>Ruian He</strong>, Weimin Tan, Bo Yan</p><p class="paper-summary">Text instructions edit audio-driven neural talking faces while preserving lip synchronization.</p></div><div class="paper-meta"><span>arXiv</span><span class="preprint-label">Preprint</span></div>
+</article>
+<article class="paper" id="paper-fpn-affect" data-year="2021" data-status="preprint" data-search="Feature Pyramid Network for Multi-task Affective Analysis Ruian He Zhen Xing Weimin Tan Bo Yan arXiv Hierarchical representations connect valence-arousal estimation, expression recognition, and action-unit detection.">
+  <span class="paper-year">2021</span><div class="paper-body"><h4><a href="https://arxiv.org/abs/2107.03670">Feature Pyramid Network for Multi-task Affective Analysis <span aria-hidden="true">↗</span></a></h4><p class="authors"><strong>Ruian He</strong>, Zhen Xing, Weimin Tan, Bo Yan</p><p class="paper-summary">Hierarchical representations connect valence-arousal estimation, expression recognition, and action-unit detection.</p></div><div class="paper-meta"><span>arXiv</span><span class="preprint-label">Preprint</span></div>
+</article></div><p class="empty-state" hidden>No preprints match your search.</p></section>
+      <p class="source-note"><a href="https://scholar.google.com/citations?user=dvNlwU0AAAAJ&amp;hl=zh-TW">Google Scholar ↗</a> <a href="https://www.semanticscholar.org/author/Ruian-He/2118180466">Semantic Scholar ↗</a> <a href="https://dblp.org/pid/297/3167.html">DBLP ↗</a></p>
+    </section>
+    <section class="service-section section page-width" aria-labelledby="service-title"><div class="section-heading"><div><h2 id="service-title">Service &amp; awards</h2></div></div><div class="service-grid">
+      <div><h3>Academic service</h3><dl><dt>Conference reviewing & program committees</dt><dd>CVPR (2022, 2024, 2025), NeurIPS (2024), ICCV (2023), ECCV (2024), AAAI (2023–2025), IEEE VR (2023), ACM Multimedia (2024).</dd><dt>Journal reviewing</dt><dd>ACM TOG, IEEE TPAMI, and IEEE TCSVT (2024).</dd><dt>Teaching at Fudan</dt><dd>Computer Graphics A (Spring 2023–2025) and Compiler (Autumn 2022).</dd></dl></div>
+      <div><h3>Awards & challenges</h3><ul class="awards"><li><span>2026</span><div>Shanghai Outstanding Graduate <small lang="zh">上海市优秀毕业生</small></div></li><li><span>2024, 2025</span><div>National Scholarship <small>Top 1%</small></div></li><li><span>2024</span><div>Jinrirencai Scholarship <small>10 students at Fudan University</small></div></li><li><span>2023</span><div>2nd place · 3rd Anti-UAV Challenge <small>CVPR Workshops</small></div></li><li><span>2023</span><div>3rd prize · Fast-Motion VFI Challenge <small>IACC</small></div></li><li><span>2021, 2023</span><div>Outstanding Ph.D. Student Award</div></li><li><span>2018–2020</span><div>Outstanding Undergraduate Student Award</div></li><li><span>2017</span><div>Boxue Scholarship <small>Top 10%</small></div></li></ul></div>
+    </div></section>
+  </main>
+  <footer class="footer page-width"><a href="#top" class="wordmark">Ruian He<span lang="zh">何瑞安</span></a><p>© 2026 Ruian He · Updated November 2026</p><a href="#top">Back to top ↑</a></footer>
 </body>
-
 </html>
-
-
